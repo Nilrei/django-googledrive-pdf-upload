@@ -1,0 +1,6 @@
+<form method="post">
+  {% csrf_token %}
+  <label for="title">PDF Title:</label>
+  <input type="text" name="title" id="title" required>
+  <button type="submit">Generate and Upload</button>
+</form>
